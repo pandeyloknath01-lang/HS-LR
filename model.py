@@ -37,7 +37,3 @@ if st.button("Predict Cost"):
     package_price = prediction * 1.1  # add 10% buffer
     st.success(f"Predicted Treatment Cost: ₹{prediction:,.0f}")
     st.info(f"Suggested Package Price: ₹{package_price:,.0f}")
-
-
-
-!pip install streamlit
